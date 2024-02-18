@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Asante Tuors & Safaris</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Free php Templates" name="keywords">
+    <meta content="Free php Templates" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
@@ -31,12 +31,16 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="ex.css">
+    <style>
+        ul {
+        color: #999932;
+         }
+    </style>
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary m-1" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -46,7 +50,7 @@
         <div class="spinner-grow text-secondary m-1" role="status">
             <span class="sr-only">Loading...</span>
         </div>
-    </div>
+    </div> -->
     <!-- Spinner End -->
 
 
@@ -83,8 +87,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="service.html" class="nav-item nav-link">Service</a>
                 <a href="team.html" class="nav-item nav-link">Packages</a>
                 <div class="nav-item dropdown">
@@ -92,13 +96,14 @@
                     <div class="dropdown-menu m-0">
                         <a href="price.html" class="dropdown-item">Pricing Plan</a>
                         <!-- <a href="team.html" class="dropdown-item">Packages</a> -->
-                        <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a> -->
+                        <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a> -->
+                        <!-- <a href="appointment.html" class="dropdown-item">Appointment</a> -->
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-flag"></i></button>
+            
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Book Now</a>
         </div>
     </nav>
@@ -128,78 +133,65 @@
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Zanzibar Excutions</h1>
-                <a href="" class="h4 text-white">Kuza Cave</a>
+                <h1 class="display-3 text-white animated zoomIn">Day 1</h1>
+                <a href="" class="h4 text-white">Home</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="excution.html" class="h4 text-white">Excutions</a>
+                <a href="" class="h4 text-white">Package</a>
             </div>
         </div>
     </div>
-    <!-- Hero End -->
-
+    <!-- Hero End --> 
 
     <!-- About Start -->
-    <center>
-    <div data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-false attched-false js-master-row mk-grid mk-in-viewport snipcss-YRUnl">
-        <div class="vc_col-sm-4 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
-          <div class="mk-image mk-image-12 jupiter-donut-  mk-image-lazyload align-left simple-frame inside-image " style="margin-bottom:10px">
-            <div class="mk-image-container style-9Nz9s" id="style-9Nz9s">
-              <div class="mk-image-holder style-5ZBZb" id="style-5ZBZb">
-                <div class="mk-image-inner  ">
-                  <a href="#" target="_self" class="mk-image-link">
-                    <img decoding="async" class="lightbox-false" alt="Zanzibar Excursion" title="Zanzibar Excursion" width="10px" height="20px" src="img/jambian1.jpg">
-                  </a>
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title mb-4">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Package one</h5>
+                        <h3 class="display-7 mb-0">1 DAY SAFARI </h3>
+                        <h3 class="display-7 mb-0">FROM ZANZIBAR  </h3>
+                        <h3 class="display- mb-0">TO MIKUMI NATIONAL PARK BY FLIGHT</h3>
+                    </div>
+                    <h3>ITINERARY HIGHLIGHTS. </h3>
+                    <h4 class="text-body fst-italic mb-4">
+                        <p>5.00AM early morning pick up from your hotel for your chartered flight direct to Mikumi National Park (taking 1hrs). </p>
+                        <p>Upon arrival at Mikumi, met & greeted by our professional driver guides for a full day game drive.  </p>
+                        <p>A short break for lunch in one of the selected restaurants, then proceed with the game till late afternoon.  </p>
+                        <p>After the game drive you will fly back to Zanzibar and then be transferred back to your respective hotels. </p>
+                    </h4>
+                    <p class="mb-4">Commonly seen animals in Mikumi: Giraffe, hippo, buffalo, elephant, zebra, baboon, eland, wildebeest, antelope etc. Occasionally seen animals in Mikumi: spotted Hyena, jackal, hartebeest, crocodiles, lion etc. </p>
+                    <p class="text-body fst-italic mb-4">Rarely seen animals in Mikumi: leopard spotted Hyena  </p>
+                    <div class="row g-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+                            <h3 class="mb-3">PACKAGE EXCLUDES: </h3>
+                            <ul>
+                                <li>Personal items travel insurance, visa fee.</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <h3 class="mb-3">PACKAGE INCLUDES:</h3>
+                            <ul>
+                                <li>Complimentary Return transfers from your Hotel in </li>
+                                <li>Go and return flight from Zanzibar. Zanzibar. </li>
+                                <li>Game Drive with Safari Vehicle. </li>
+                                <li>Lunch with soft drinks </li>
+                                <li>Park Fees  </li>
+                                <li>All Taxes / VAT. </li>
+                            </ul>
+                            <!-- <p>To be one of the best company in the tourism industry by setting the top standards for others to follow.</p>                           -->
+                      </div>
+                    </div>
+                    <!-- <h1 class="display-5 mb-0">Rarely seen animals in Mikumi: leopard spotted Hyena </h1> -->
                 </div>
-              </div>
-              <div class="clearboth">
-              </div>
-            </div>
-          </div>
-          <div class="mk-image mk-image-13 jupiter-donut-  mk-image-lazyload align-left simple-frame inside-image " style="margin-bottom:10px">
-            <div class="mk-image-container style-eOQoc" id="style-eOQoc">
-              <div class="mk-image-holder style-ND4Fa" id="style-ND4Fa">
-                <div class="mk-image-inner  ">
-                  <a href="#" target="_self" class="mk-image-link">
-                    <img decoding="async" class="lightbox-false" alt="Zanzibar Excursion Stone Town Slave Market" title="Zanzibar Excursion Stone Town Slave Market" width="1737" height="1150" src="img/ele2.jpg">
-                  </a>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img  class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/team-1.jpeg" >
+                    </div>
                 </div>
-              </div>
-              <div class="clearboth">
-              </div>
             </div>
-          </div>
         </div>
-        <div class="vc_col-sm-8 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
-          <div class=" vc_custom_1659349563522">
-            <div id="text-block-15" class="mk-text-block  jupiter-donut- ">
-              <h4>
-                <strong>
-                    KUZA CAVE
-                </strong>
-              </h4>
-              <p>
-                It is a tour in southern region of Unguja in Jambiani village. This tour is about to visit the natural coral cave with fresh crystalline water.
-                At Kuza cave the main activities takes place are swimming in natural swimming pool. The area around the cave is a peaceful 
-                nature preserve for wildlife that includes Red Colobus Monkeys, colorful butterflies, different types of birds and bush babies. 
-                In spite of cave visiting and swimming also there is well talented drumming and dancing performers.                                                                   
-              </p>
-              
-           
-              <div class="clearboth">
-              </div>
-            </div>
-          </div>
-          <div class=" vc_custom_1584180350834">
-            <div id="text-block-16" class="mk-text-block  jupiter-donut- ">
-              <div id="prison">
-              </div>
-              <div class="clearboth">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </center> 
+    </div>
     <!-- About End -->
     
 
@@ -226,7 +218,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                         <a class="text-light mb-2" href="about.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
                         <a class="text-light mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
@@ -278,7 +270,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://wa.link/fbmey7" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-whatsapp"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -298,4 +290,4 @@
     <script src="js/main.js"></script>
 </body>
 
-</html>
+</php>
