@@ -1,20 +1,19 @@
-<!DOCTYPE >
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
     <meta charset="utf-8">
-    <title>Asante Tuors & Safaris</title>
+    <title>DentCare - Dental Clinic Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free php Templates" name="keywords">
-    <meta content="Free php Templates" name="description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -32,10 +31,35 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        ul {
-        color: #999932;
-         }
+        /* Center the column */
+        .service-centering-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .service-centering-wrapper .col-lg-7 {
+            flex: 0 0 auto; /* Prevent flexbox from stretching the column */
+        }
+    
+        .service-item .img-fluid {
+        transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+        width: 105%; /* Increase the width slightly */
+        height: auto; /* Maintain aspect ratio */
+        margin: -2.5% 0; /* Adjust the margin to pull the image outwards */
+        display: block; /* Ensure the image is a block element to allow margin adjustments */
+    }
+
+    /* Optional: Add a hover effect to scale the image */
+    .service-item:hover .img-fluid {
+        transform: scale(1.05); /* Scale the image up on hover for an interactive effect */
+    }
+    
+        /* Optional: Scale image up on hover for an interactive effect */
+        .service-item:hover .img-fluid {
+            transform: scale(1.05);
+        }
     </style>
+    
 </head>
 
 <body>
@@ -101,12 +125,11 @@
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-flag"></i></button>
-            
+
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Book Now</a>
         </div>
     </nav>
     <!-- Navbar End -->
-    
 
 
     <!-- Full Screen Search Start -->
@@ -128,67 +151,123 @@
     <!-- Full Screen Search End -->
 
 
-
     <!-- Hero Start -->
     <div class="container-fluid bg-primary py-5 hero-header mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Day 2</h1>
-                <a href="index.html" class="h4 text-white">Home</a>
+                <h1 class="display-3 text-white animated zoomIn">TANZANIA SAFARIS</h1>
+                <a href="" class="h4 text-white">Home</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="team.html" class="h4 text-white">packages</a>
+                <a href="" class="h4 text-white">Services</a>
             </div>
         </div>
     </div>
-    <!-- Hero End --> 
+    <!-- Hero End -->
 
+    <!-- Tanzania Safaris -->
 
-    <!-- About Start -->
+    <!-- Service Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
-            <div class="row g-5">
+            <div class="row g-5 mb-5 service-centering-wrapper"> <!-- Added wrapper class for centering -->
                 <div class="col-lg-7">
-                    <div class="section-title mb-4">
-                        <h5 class="position-relative d-inline-block text-primary text-uppercase">2 Days 1 Night Safari</h5>
-                        <h3 class="display-7 mb-0">Manyara National Park and Ngorongoro Crater</h3>
+                    <div class="section-title mb-5">
+                        <h5 class="position-relative d-inline-block text-primary text-uppercase">Tanzania Safaris</h5>
+                        <h1 class="display-5 mb-0">Some area that you'll see in Tanzania Safaris Tours </h1>
                     </div>
-                    <h3>ITINERARY HIGHLIGHTS</h3>
-                    <div class="text-body fst-italic mb-4">
-                        <h4>Day 1: Ngorongoro Crater</h4>
-                        <p>Pickup from Arusha Airport or Kilimanjaro International Airport. Meet with our driver for a brief introduction to the safari, immediately starting the journey to Ngorongoro with a lunch box. Descend into the crater for game viewing in this breathtaking natural wonder, known for its high density of wildlife.</p>
-                        <p><strong>Accommodation:</strong> Manyara Wildlife Lodge<br>
-                        <strong>Meal Plan (FB):</strong> Breakfast, Lunch, and Dinner</p>
-    
-                        <h4>Day 2: Lake Manyara</h4>
-                        <p>After breakfast, checkout with packed lunches for Lake Manyara National Park. Explore this unique park known for its diverse landscapes and wildlife. In the evening, drive to Arusha Airport for your flight to Zanzibar.</p>
-                        <p><strong>Accommodation:</strong> Manyara Wildlife Lodge<br>
-                        <strong>Meal Plan (FB):</strong> Breakfast, Lunch, and Dinner</p>
+                    <!-- First Row of Service Items -->
+                    <div class="row g-5">
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/sev.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Serenget National Pack</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/service 1.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Giraffe</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="1.2s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/ser.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="mb-3">End of Tour</h3>
-                    <h4>Includes:</h4>
-                    <ul>
-                        <li>Safari vehicle (jeep)</li>
-                        <li>Accommodation (lodge)</li>
-                        <li>All National Park fees</li>
-                        <li>All government taxes</li>
-                        <li>Soft drinks like water & soda</li>
-                        <li>English speaking guide</li>
-                        <li>Private Safari</li>
-                        <li>All Meals</li>
-                        <li>Crater Fees</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/team-1.jpeg" style="object-fit: cover;" alt="Safari Image">
+                    <!-- Second Row of Service Items -->
+                    <div class="row g-5">
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="1.5s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/mik 2.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="1.8s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/manyr.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="2.1s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/mik 4.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third Row of Service Items -->
+                    <div class="row g-5">
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="2.4s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/ndov.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="2.7s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="img/lion.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
+                        <!-- Adjust this part as needed to match your service/item -->
+
+                        <div class="col-md-4 service-item wow zoomIn" data-wow-delay="3.0s">
+                            <div class="rounded-top overflow-hidden">
+                                <!-- Replace with your image src -->
+                                <img class="img-fluid" src="img/lion.png" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <!-- Replace with your service name -->
+                                <h5 class="m-0">Name</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- About End -->
-    
+    <!-- Service End -->
+
+
+
 
     <!-- Newsletter Start -->
     <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
@@ -204,7 +283,7 @@
         </div>
     </div>
     <!-- Newsletter End -->
-    
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
@@ -221,7 +300,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Our Service</h3>
+                    <h3 class="text-white mb-4"> Our Service</h3>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Zanzibar Excutions</a>
                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Tanzania Safaris</a>
@@ -283,4 +362,5 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
